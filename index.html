@@ -1,1 +1,450 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><title>lift</title><link href=/css/app.98f256ad.css rel=preload as=style><link href=/css/chunk-vendors.17c0942e.css rel=preload as=style><link href=/js/app.6c802920.js rel=preload as=script><link href=/js/chunk-vendors.5124ca71.js rel=preload as=script><link href=/css/chunk-vendors.17c0942e.css rel=stylesheet><link href=/css/app.98f256ad.css rel=stylesheet></head><body><noscript><strong>We're sorry but lift doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.5124ca71.js></script><script src=/js/app.6c802920.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/plyr.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <title>EMIPSUM</title>
+  </head>
+  <body>
+    <header>
+      <div class="video-container">
+        <video autoplay muted playsinline loop id="bgVideo">
+          <source src="./sources/bg.mp4" type="video/mp4">
+          <source src="./sources/bg.webm" type="video/webm">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- <script type="text/javascript" src="./js/video.js"></script> -->
+      <nav class="navbar top-navbar">
+        <div class="container">
+          <div class="navbar-brand top-navbar-mobile">
+            <span class="navbar-burger burger left" data-target="navMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <div class="navbar-item is-hidden-desktop" id="nav-soc-icons">
+              <div class="text-center center-block">
+                <a href="https://twitter.com/bootsnipp"><i id="social-placer" class="fas fa-map-marker-alt social"></i></a>
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-vk" class="fab fa-vk social"></i></a>
+              </div>
+            </div>
+            <p class="navbar-item is-hidden-desktop tel-number is-right">+78005553535</p>
+          </div>
+          <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+
+            </div>
+            <div class="navbar-end">
+              <a href="#" class="navbar-item is-active">Главная</a>
+              <a href="#" class="navbar-item">О нас</a>
+              <a href="#" class="navbar-item">Сеансы</a>
+              <a href="#" class="navbar-item">Цены</a>
+              <a href="#" class="navbar-item">Контакты</a>
+              <p class="navbar-item is-hidden-touch tel-number">+7 901 429 90 39</p>
+              <div class="container navbar-item is-hidden-touch" id="nav-soc-icons">
+                <div class="text-center center-block">
+                  <a href="https://www.facebook.com/bootsnipp"><i id="social-vk" class="fab fa-vk fa-2x social"></i></a>
+    	            <a href="https://twitter.com/bootsnipp"><i id="social-globe" class="fas fa-globe fa-2x social"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container content-container content-before-nav">
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <ul class="header-title">
+              <li class="first-level-title">Orem ipsum</li>
+              <li class="second-level-title">Emipsum</li>
+              <li class="third-level-title">Ofhigh</li>
+              <li class="fourth-level-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
+            </ul>
+          </div>
+          <div class="column">
+            <a class="button red-btn cta-header is-rounded">Забронировать сеанс</a>
+          </div>
+        </div>
+      </div>
+      <div class="container content-container header-slider">
+        <div class="header-carousel">
+          <div>
+            <ul class="header-carousel-item view">
+              <li class="header-carousel-item-icon"><i id="social-vk" class="fab fa-vk fa-2x social"></i></li>
+              <li class="header-carousel-item-title">View title</li>
+              <li class="header-carousel-item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="more-views">
+              <div class="container view-mobile is-hidden-mobile">
+                <span class="view-mobile-title">Что о нас говорят?</span>
+                <span class="view-mobile-subtitle">Почитайте наши реальные отзывы от настоящих посетителей хорор квеста наследие</span>
+                <a class="button is-link is-inverted is-outlined view-mobile-btn">Почитать отзывы&#160;&#160;&#10230;</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <ul class="header-carousel-item view">
+              <li class="header-carousel-item-icon"><i id="social-vk" class="fab fa-vk fa-2x social"></i></li>
+              <li class="header-carousel-item-title">View title</li>
+              <li class="header-carousel-item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="header-carousel-item view">
+              <li class="header-carousel-item-icon"><i id="social-vk" class="fab fa-vk fa-2x social"></i></li>
+              <li class="header-carousel-item-title">View title</li>
+              <li class="header-carousel-item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="more-views">
+              <div class="container view-mobile is-hidden-mobile">
+                <span class="view-mobile-title">Что о нас говорят?</span>
+                <span class="view-mobile-subtitle">Почитайте наши реальные отзывы от настоящих посетителей хорор квеста наследие</span>
+                <a class="button is-link is-inverted is-outlined view-mobile-btn">Почитать отзывы&#160;&#160;&#10230;</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <ul class="header-carousel-item view">
+              <li class="header-carousel-item-icon"><i id="social-vk" class="fab fa-vk fa-2x social"></i></li>
+              <li class="header-carousel-item-title">View title</li>
+              <li class="header-carousel-item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="header-carousel-item view">
+              <li class="header-carousel-item-icon"><i id="social-vk" class="fab fa-vk fa-2x social"></i></li>
+              <li class="header-carousel-item-title">View title</li>
+              <li class="header-carousel-item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="more-views">
+              <div class="container view-mobile is-hidden-mobile">
+                <span class="view-mobile-title">Что о нас говорят?</span>
+                <span class="view-mobile-subtitle">Почитайте наши реальные отзывы от настоящих посетителей хорор квеста наследие</span>
+                <a class="button is-link is-inverted is-outlined view-mobile-btn">Почитать отзывы&#160;&#160;&#10230;</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <ul class="header-carousel-item view">
+              <li class="header-carousel-item-icon"><i id="social-vk" class="fab fa-vk fa-2x social"></i></li>
+              <li class="header-carousel-item-title">View title</li>
+              <li class="header-carousel-item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container hr-header"></div>
+      <div class="container view-mobile is-hidden-tablet">
+        <!-- <div class="view-mobile-hr"></div> -->
+        <span class="view-mobile-title">Что о нас говорят?</span>
+        <span class="view-mobile-subtitle">Почитайте наши реальные отзывы от настоящих посетителей хорор квеста наследие</span>
+        <a class="button is-link is-inverted is-outlined view-mobile-btn">Почитать отзывы&#160;&#160;&#10230;</a>
+        <div class="view-mobile-vr"></div>
+      </div>
+    </header>
+    <section class="section about">
+
+      <span class="about-uptitle-mobile is-hidden-tablet">Что такое квест наследие</span>
+      <span class="about-title-mobile is-hidden-tablet">О проекте наследие</span>
+      <div class="container content-container">
+        <div class="columns">
+          <div class="column is-two-fifths about-left-column">
+            <span class="about-text-title is-hidden-mobile">О проекте</span>
+            <span class="about-text-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </span>
+            <div class="about-hr about-hr-mobile is-hidden-tablet"></div>
+          </div>
+          <div class="column about-right-column">
+            <div class="plyr__video-embed" id="player">
+              <iframe
+                  id="yt-player"
+                  src="https://www.youtube.com/embed/tIoF9SMzYco?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+                  allowfullscreen
+                  allowtransparency
+                  allow="autoplay"
+              ></iframe>
+            </div>
+
+          </div>
+        </div>
+        <div class="about-hr is-hidden-mobile"></div>
+        <div class= "cta-about-btn">
+          <a class="button red-btn cta-about is-rounded is-hidden-mobile">Забронировать сеанс</a>
+        </div>
+      </div>
+    </section>
+    <section class="section graphs">
+      <div class="container content-container">
+        <div class="graphs-hr is-hidden-mobile"></div>
+        <div class="columns">
+          <div class="column">
+            <div class="graphs-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <span class="graphs-title">Команда от 1 до 6</span>
+            <span class="graphs-description">Квест можно пройти как одному, так и в компании друзей до 6ти человек</span>
+          </div>
+          <div class="column">
+            <div class="graphs-icon">
+              <i class="far fa-clock"></i>
+            </div>
+            <span class="graphs-title">75 минут</span>
+            <span class="graphs-description">До 75 минут полного погружения в другой мир</span>
+            <div class="black-square is-hidden-mobile"></div>
+          </div>
+          <div class="column">
+            <div class="graphs-icon">
+              <i class="fas fa-sync"></i>
+            </div>
+            <span class="graphs-title sup">450 м<sup>2</sup></span>
+            <span class="graphs-description sup">Целых 450 м<sup>2</sup> и все в вашем распоряжении</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section gallery">
+      <div class="columns">
+        <div class="column gallery-item">
+          <img src="./sources/bar.png" alt="">
+        </div>
+        <div class="column gallery-item">
+          <img src="./sources/Koridor.jpg" alt="">
+        </div>
+        <div class="column gallery-item">
+          <img src="./sources/shkaf.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="section booking">
+      <div class="container booking-header-inner">
+        <span class="booking-header-inner-title is-hidden-mobile">Забронируйте квест хоррор</span>
+        <span class="booking-header-inner-title-mobile is-hidden-tablet">Забронируйте квест</span>
+        <span class="booking-header-inner-description">Стоимость игры для команды 1-4 игрока составляет 7000, доплата за каждого дополнительного участника по 1000</span>
+      </div>
+    </section>
+    <section class="booking-body">
+      <span>БРОНИРОВАНИЕ</span>
+    </section>
+    <section class="section more-info">
+      <div class="container content-container more-info-inner">
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <span class="more-info-title is-hidden-mobile">Для получения информации и бронирования звоните нам по номеру&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>+7 901 429 90 39</b></span>
+            <span class="more-info-title is-hidden-tablet">Звоните нам по номеру<br><b>+7 901 429 90 39</b></span>
+          </div>
+          <div class="column">
+            <a class="button red-btn cta-more-info is-rounded">Забронировать сеанс</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section restrictions">
+      <div class="container content-container">
+        <div class="restrictions-vl is-hidden-tablet"></div>
+        <span class="restrictions-uptitle-mobile is-hidden-tablet">Меры предосторожности</span>
+        <span class="restrictions-title is-hidden-mobile"><b>Ограничения,</b> меры предосторожности и рекомендации</span>
+        <span class="restrictions-title-mobile is-hidden-tablet">Ограничения</span>
+        <span class="restrictions-description is-hidden-mobile">Прохождение квеста возможно только для здоровых людей с минимальной физической подготовкой</span>
+        <div class="restrictions-hr is-hidden-mobile"></div>
+        <div class="columns">
+          <div class="column">
+            <div class="restrictions-redpoint is-hidden-mobile"></div>
+            <span class="restrictions-column-title">Стиль одежды</span>
+            <span class="restrictions-column-description-mobile is-hidden-tablet">Мы настоятельно рекомендуем одеться в простую, свободную одежду для активных действий.</span>
+            <span class="restrictions-column-description is-hidden-mobile">Для вашего удобства мы настоятельно рекомендуем одеться в простую, свободную одежду для активных действий. Прохождение квеста в обуви на каблуках строго запрещено - это может страть причиной травмы</span>
+          </div>
+          <div class="column">
+            <div class="restrictions-redpoint is-hidden-mobile"></div>
+            <span class="restrictions-column-title">Ценные вещи</span>
+            <span class="restrictions-column-description-mobile is-hidden-tablet">Проносить электроприборы, включая мобильные телефоны, ценные вещи и украшения на квест строго запрещено. Организаторы не несут ответственности за их повреждение.</span>
+            <span class="restrictions-column-description is-hidden-mobile">Проносить электроприборы, включая мобильные телефоны, ценные вещи и украшения на квест строго запрещено. Организаторы не несут ответственность за их повреждение, потерю или дефекты, а также причинения вреда здоровью участников или актеров этими предметами</span>
+          </div>
+          <div class="column">
+            <div class="restrictions-redpoint is-hidden-mobile"></div>
+            <span class="restrictions-column-title">Алкоголь</span>
+              <span class="restrictions-column-description-mobile is-hidden-tablet">Игроки, находящиеся в состоянии алкогольного или наркотического опьянения, к прохождению квеста не допускаются.</span>
+            <span class="restrictions-column-description is-hidden-mobile">Игроки, находящиеся в состоянии алкогольного или наркотического опьянения, к прохождению квеста не допускаются. В случае укрытия этого факта огранизаторы не несут за все последующие физические последствия, связанные со здоровьем и жизнью игрока</span>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <div class="restrictions-redpoint is-hidden-mobile"></div>
+            <span class="restrictions-column-title">Очки и контактные линзы</span>
+            <span class="restrictions-column-description-mobile is-hidden-tablet">Организаторы не несут ответственности за их повреждение, потерю или дефекты, а также причинение вреда здоровью участников или актеров этими предметами</span>
+            <span class="restrictions-column-description is-hidden-mobile">Мы не рекомендуем прохождение квеста в очках. Организаторы не несут ответственности за их повреждение, потерю или дефекты, а также причинение вреда здоровью участников или актеров этими предметами. По возможности искользуйте одноразовые контактные линзы.</span>
+          </div>
+          <div class="column">
+            <div class="restrictions-redpoint is-hidden-mobile"></div>
+            <span class="restrictions-column-title">Медицинские противопоказания</span>
+            <span class="restrictions-column-description-mobile is-hidden-tablet">Беременность, ограниченные физические возможности, травмы, болезни сердца и психологические расстройства (панические атаки, клаустрофобия, эпилепсия и др.) являются аболютным провивопоказанием к прохождению квеста</span>
+            <span class="restrictions-column-description is-hidden-mobile">Беременность, ограниченные физические возможности, травмы, болезни сердца и психологические расстройства (панические атаки, клаустрофобия, эпилепсия и др.) являются аболютным провивопоказанием к прохождению квеста</span>
+          </div>
+          <div class="column">
+            <div class="restrictions-redpoint is-hidden-mobile"></div>
+            <span class="restrictions-column-title">Контакт с актерами</span>
+            <span class="restrictions-column-description-mobile is-hidden-tablet">Помните, что любой обраный контакт с актерами строго запрещен. Если вы проходите квест впервые, настоятельно рекомендуем выбрать режим с минимальным контактом.</span>
+            <span class="restrictions-column-description is-hidden-mobile">Пожалуйста, будьте внимательны в ходе игры, соблюдайте рекомендации оператора и элементарные правила техники безопасности. Помните, что любой обратный контакт с актерами строго запрещен. Если вы проходите квест впервые, настоятельно рекомендуем выбрать режим с минимальным контактом</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section reviews">
+      <div class="reviews-vl"></div>
+      <span class="reviews-uptitle is-hidden-tablet">Ваши отзывы</span>
+      <span class="reviews-title is-hidden-mobile"><b>Отзывы</b> о хоррор квесте наследие</span>
+      <span class="reviews-description">Что о нас пишут в соцсетях</span>
+      <div class="center">
+        <a href="https://vk.com/topic-179130202_39753597"><div class="reviews-carousel-item-link-out"><h3 class="reviews-carousel-item-link">Больше отзывов</h3></div></a>
+        <div class="reviews-carousel-item">
+          <h3 class="reviews-carousel-item-h"></h3>
+          <span class="reviews-carousel-item-name"></span>
+          <span class="reviews-carousel-item-review"></span>
+        </div>
+        <div class="reviews-carousel-item">
+          <h3 class="reviews-carousel-item-h"></h3>
+          <span class="reviews-carousel-item-name"></span>
+          <span class="reviews-carousel-item-review"></span>
+        </div>
+        <div class="reviews-carousel-item">
+          <h3 class="reviews-carousel-item-h"></h3>
+          <span class="reviews-carousel-item-name"></span>
+          <span class="reviews-carousel-item-review"></span>
+        </div>
+        <div class="reviews-carousel-item">
+          <h3 class="reviews-carousel-item-h"></h3>
+          <span class="reviews-carousel-item-name"></span>
+          <span class="reviews-carousel-item-review"></span>
+        </div>
+        <div class="reviews-carousel-item">
+          <h3 class="reviews-carousel-item-h"></h3>
+          <span class="reviews-carousel-item-name"></span>
+          <span class="reviews-carousel-item-review"></span>
+        </div>
+        <a href="https://vk.com/topic-179130202_39753597"><div class="reviews-carousel-item-out"><h3 class="reviews-carousel-item-link">Больше отзывов</h3></div></a>
+      </div>
+    </section>
+    <section class="section contact-us">
+      <div class="container content-container">
+        <div class="contact-us-vl"></div>
+        <span class="contact-us-title">Свяжитесь с нами</span>
+        <span class="contact-us-title-mobile is-hidden-tablet">Спросите нас интересующие вас вопросы</span>
+        <form action="sendMail.php" method="post">
+          <div class="field is-hidden-mobile">
+            <div class="control">
+              <input class="input" type="text" placeholder="Email" name="email" required>
+            </div>
+            <div class="control">
+              <input class="input" type="text" placeholder="Ваше имя" name="name" required>
+            </div>
+            <div class="control">
+              <textarea class="textarea" row="6" placeholder="Текст" name="message" required></textarea>
+            </div>
+            <div class="control control-submit-btn">
+              <button class="button is-text" type="submit">Отправить</button>
+            </div>
+          </div>
+        </form>
+        <form action="sendMailMobile.php" method="post">
+          <div class="field field-mobile is-hidden-tablet">
+            <div class="columns is-mobile">
+              <div class="column">
+                <div class="control">
+                  <label class="label">Ваше имя</label>
+                  <input class="input" type="text" placeholder="" name="name">
+                </div>
+              </div>
+              <div class="column">
+                <div class="control">
+                  <label class="label">Email</label>
+                  <input class="input" type="text" placeholder="" name="email">
+                </div>
+              </div>
+            </div>
+            <div class="columns is-mobile">
+              <div class="column">
+                <div class="control">
+                  <label class="label">Телефон</label>
+                  <input class="input" type="text" placeholder="" name="tel">
+                </div>
+              </div>
+              <div class="column">
+                <div class="control">
+                  <label class="label">Тема</label>
+                  <input class="input" type="text" placeholder="" name="theme">
+                </div>
+              </div>
+            </div>
+            <div class="control">
+              <label class="label">Сообщение</label>
+              <textarea class="textarea" row="1" placeholder="" name="message"></textarea>
+            </div>
+            <div class="control control-submit-btn">
+              <button class="button is-text" type="submit">Отправить&#160;&#160;&#10230;</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="container content-container">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <span class="footer-title">Наш адрес</span>
+            <div class="footer-hr"></div>
+            <span class="footer-description">Москва, Волгоградский пр.,32 корпус 8</span>
+          </div>
+          <div class="column is-one-fifth">
+            <span class="footer-title">Email</span>
+            <div class="footer-hr"></div>
+            <span class="footer-description">info@quest-art.com</span>
+            <span class="footer-copyright is-hidden-tablet">	&#169;2019 Quest-Art. Все права защищены.</span>
+          </div>
+          <div class="column is-two-fifth is-hidden-mobile">
+            <span class="footer-copyright">	&#169;2019 Quest-Art. Все права защищены.</span>
+          </div>
+          <div class="column is-one-fifth right is-hidden-mobile">
+            <span class="footer-title">Телефон</span><br>
+            <div class="footer-hr"></div><br>
+            <div style="clear:both;"></div>
+            <span class="footer-description">+7 (909) 667 70 28</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/plyr.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
