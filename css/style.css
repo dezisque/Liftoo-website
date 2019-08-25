@@ -1,4 +1,4 @@
-body{background-color: #111;}
+body{background-color: rgba(0,0,0,.98);}
 
 header{
   padding-bottom: 10px;
@@ -129,57 +129,7 @@ header{
   color: #fff;
 }
 
-.view-mobile{
-  padding-top: 40px;
-}
 
-.view-mobile-hr{
-  height: 4px;
-  background-color: rgba(60, 60, 60, .6);
-  width: 90%;
-  margin: 0 auto;
-}
-
-.view-mobile-title{
-  font-size: 7vw;
-  color: #bf0c29;
-  text-transform: uppercase;
-  font-weight: bold;
-  display: block;
-  margin: 0 auto;
-  margin-top: -5.5vw;
-  width: 80%;
-  text-align: center;
-}
-
-.view-mobile-subtitle{
-  color: rgba(255,255,255,.7);
-  font-size: 2.8vw;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bolder;
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-}
-
-.view-mobile-btn{
-  text-transform: uppercase;
-  font-size: 2.2vw;
-  font-weight: bolder;
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 35%;
-}
-
-.view-mobile-vr{
-  width: 2px;
-  background-color: #bf0c29;
-  height: 10vw;
-  margin: 0 auto;
-  margin-top: 2.5vw;
-}
 
 .header-carousel-item{
   text-align: center;
@@ -188,6 +138,11 @@ header{
 .header-carousel-item-icon{
   font-size: 2.5vw;
   display:block;
+}
+
+.bookform-widget-embedded__wrapper{
+  height: 36.5vw!important;
+  margin-top: 0.3vw;
 }
 
 .header-carousel-item-title{
@@ -228,6 +183,7 @@ header{
   background-color: #bf0c29;
   width: 35%;
   margin-top: 60px;
+  display: none;
 }
 
 .about-text-title{
@@ -237,6 +193,51 @@ header{
   font-weight: bold;
   display: block;
   padding-bottom: 1.5vw;
+}
+
+.view-mobile{
+  padding-top: 40px;
+}
+
+.view-mobile-hr{
+  height: 4px;
+  background-color: rgba(60, 60, 60, .6);
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+}
+
+.view-mobile-title{
+  font-size: 4vw;
+  color: #bf0c29;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  margin-top: -4vw;
+  width: 100%;
+  text-align: center;
+}
+
+.view-mobile-subtitle{
+  color: rgba(255,255,255,.7);
+  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.view-mobile-btn{
+  text-transform: uppercase;
+  font-size: 1.4vw;
+  font-weight: bolder;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 25%;
 }
 
 .about-text-description{
@@ -308,7 +309,7 @@ header{
   top: -17vw;
   height: 10vw;
   z-index: 2;
-  background-color: #111;
+  background-color: rgba(0,0,0,.98);
 }
 
 .graphs-hr{
@@ -725,25 +726,9 @@ header{
   display: block;
 }
 
-.more-views .view-mobile-title{
-  font-size: 1.5vw;
-  background: none;
-  margin-top: -1vw;
-  width: 100%;
-}
-
-.more-views .view-mobile-subtitle{
-  font-size: 1vw;
-  width: 80%;
-  margin-top: 1.5vw;
-}
-
-.more-views .view-mobile-btn{
-  font-size: 1vw;
-  width: 80%;
-}
-
 @media screen and (max-width: 1023px){ /*TABLETS*/
+
+
   .content-container{
     width: 80%;
   }
@@ -780,11 +765,21 @@ header{
   .cta-header{
     margin-left: -8vw;
   }
+
+  .bookform-widget-embedded__wrapper{
+    height: 36.5vw!important;
+    margin-top: 0vw;
+  }
 }
 
 @media screen and (max-width: 768px){ /*MOBILE*/
   .content-container{
     width: 90%;
+  }
+
+  .bookform-widget-embedded__wrapper{
+    height: 97vw!important;
+    margin-top: 0.15vw;
   }
 
   .cta-header{
@@ -1230,5 +1225,75 @@ header{
     width: 80%;
     margin: 2vw auto;
     padding-bottom: 2vw;
+  }
+
+  .view-mobile{
+    padding-top: 40px;
+  }
+
+  .view-mobile-hr{
+    height: 4px;
+    background-color: rgba(60, 60, 60, .6);
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .view-mobile-title{
+    font-size: 7vw;
+    color: #bf0c29;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: -5.5vw;
+    width: 80%;
+    text-align: center;
+  }
+
+  .view-mobile-subtitle{
+    color: rgba(255,255,255,.7);
+    font-size: 2.8vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .view-mobile-btn{
+    text-transform: uppercase;
+    font-size: 2.2vw;
+    font-weight: bolder;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 35%;
+  }
+
+  .view-mobile-vr{
+    width: 2px;
+    background-color: #bf0c29;
+    height: 10vw;
+    margin: 0 auto;
+    margin-top: 2.5vw;
+  }
+
+  .more-views .view-mobile-title{
+    font-size: 1.5vw;
+    background: none;
+    margin-top: -1vw;
+    width: 100%;
+  }
+
+  .more-views .view-mobile-subtitle{
+    font-size: 1vw;
+    width: 80%;
+    margin-top: 1.5vw;
+  }
+
+  .more-views .view-mobile-btn{
+    font-size: 1vw;
+    width: 80%;
   }
 }
