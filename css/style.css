@@ -141,8 +141,7 @@ header{
 }
 
 .bookform-widget-embedded__wrapper{
-  height: 36.5vw!important;
-  margin-top: 0.3vw;
+  height: 39vw!important;
 }
 
 .header-carousel-item-title{
@@ -208,20 +207,20 @@ header{
 }
 
 .view-mobile-title{
-  font-size: 4vw;
+  font-size: 3vw;
   color: #bf0c29;
   text-transform: uppercase;
   font-weight: bold;
   display: block;
   margin: 0 auto;
-  margin-top: -4vw;
+  margin-top: -2vw;
   width: 100%;
   text-align: center;
 }
 
 .view-mobile-subtitle{
   color: rgba(255,255,255,.7);
-  font-size: 1.6vw;
+  font-size: 1.3vw;
   text-align: center;
   text-transform: uppercase;
   font-weight: bolder;
@@ -390,8 +389,7 @@ header{
 .booking-body{
   margin: 0 auto;
   width: 70%;
-  height: 38vw;
-  border: 2px rgba(255,255,255,.1) dotted;
+  height: 39vw;
 }
 
 .booking-body span{
@@ -417,6 +415,7 @@ header{
 }
 
 .more-info{
+  margin-top: 0.7vw;
   padding: 0;
   background: linear-gradient(90deg, #4d0c0e, #111 80%);
   height: 12.5vw;
@@ -767,8 +766,12 @@ header{
   }
 
   .bookform-widget-embedded__wrapper{
-    height: 36.5vw!important;
+    height: 39vw!important;
     margin-top: 0vw;
+  }
+
+  .more-info{
+    margin-top: 1.2vw!important;
   }
 }
 
@@ -942,6 +945,7 @@ header{
     transform: rotate(55deg);
   }
   .more-info{
+    margin: -0.7vw!important;
     height: 100%;
     padding-bottom: 4vw;
   }
