@@ -933,7 +933,6 @@ header{
     width: 90%;
     height: 100vw;
     margin-top: 8vw;
-    border: 2px rgba(255,255,255,.1) dotted;
   }
 
   .booking-body span{
