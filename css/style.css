@@ -221,7 +221,7 @@ header{
 
 .view-mobile-subtitle{
   color: rgba(255,255,255,.7);
-  font-size: 2vw;
+  font-size: 1.6vw;
   text-align: center;
   text-transform: uppercase;
   font-weight: bolder;
@@ -232,7 +232,7 @@ header{
 
 .view-mobile-btn{
   text-transform: uppercase;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   font-weight: bolder;
   display: block;
   margin: 0 auto;
@@ -241,7 +241,7 @@ header{
 }
 
 .about-text-description{
-  font-size: 1vw;
+  font-size: 0.8vw;
   text-transform: uppercase;
   color: rgba(255,255,255,.7);
   font-weight: bold;
