@@ -66,15 +66,20 @@ header{
 
 .second-level-title{
   color: #bf0c29;
-  font-size: 9.5vw;
+  letter-spacing: -.5vw;
+  font-size: 7.5vw;
+  font-weight: 500;
 }
 
 .third-level-title{
   transform: scale(1,1.4);
   -webkit-transform:scale(1,1.4);
   color: #fff;
-  font-size: 5vw;
-  font-weight: bolder;
+  line-height: 2.3vw;
+  font-size: 1.6vw;
+  display: block;
+  margin-top: 3vw;
+  width: 90%;
 }
 
 .fourth-level-title{
@@ -215,7 +220,7 @@ header{
   font-weight: bold;
   display: block;
   margin: 0 auto;
-  margin-top: -2vw;
+  margin-top: 2vw;
   width: 100%;
   text-align: center;
 }
@@ -810,7 +815,10 @@ header{
   }
 
   .third-level-title{
-    font-size: 8vw;
+    font-size: 4.5vw;
+    line-height: 5vw;
+    display: block;
+    margin-top: 8vw;
   }
 
   .fourth-level-title{
