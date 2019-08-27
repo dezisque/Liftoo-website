@@ -876,7 +876,9 @@ header{
 
   .about-title-mobile{
     color: #fff;
-    font-size: 4vw;
+    font-size: 7vw;
+    color: #bf0c29;
+    line-height: 8vw;
     display: block;
     padding-bottom: 2vw;
   }
