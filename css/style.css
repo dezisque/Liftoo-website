@@ -242,11 +242,12 @@ header{
 }
 
 .about-text-description{
-  font-size: 0.8vw;
+  font-size: 0.75vw;
   text-transform: uppercase;
   color: rgba(255,255,255,.7);
   font-weight: bold;
   display: block;
+  padding-right: 0.5vw;
 }
 
 .plyr__video-embed iframe, .plyr__video-wrapper--fixed-ratio video{
