@@ -1,7 +1,7 @@
 body{background-color: rgba(0,0,0,1)!important;}
 
 header{
-  padding-bottom: 10px;
+  padding-bottom: 8vw;
   position: relative;
 }
 
@@ -26,7 +26,7 @@ header{
 }
 
 .content-before-nav{
-  padding-bottom: 60px;
+  margin-top: 10vw;
 }
 
 .top-navbar{
@@ -69,6 +69,8 @@ header{
   letter-spacing: -.5vw;
   font-size: 7.5vw;
   font-weight: 500;
+  display: block;
+  margin-top: 9vw;
 }
 
 .third-level-title{
@@ -202,7 +204,8 @@ header{
 }
 
 .view-mobile{
-  padding-top: 40px;
+  padding-bottom: 4vw;
+  margin-top: -2vw;
 }
 
 .view-mobile-hr{
@@ -220,7 +223,6 @@ header{
   font-weight: bold;
   display: block;
   margin: 0 auto;
-  margin-top: 2vw;
   width: 100%;
   text-align: center;
 }
