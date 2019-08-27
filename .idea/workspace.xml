@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88527105-e27c-411d-b6f1-a1eed3fae9ec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,8 +34,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="165" column="119" lean-forward="false" selection-start-line="165" selection-start-column="119" selection-end-line="165" selection-end-column="119" />
+            <state relative-caret-position="441">
+              <caret line="257" column="122" lean-forward="false" selection-start-line="257" selection-start-column="122" selection-end-line="257" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -77,8 +76,9 @@
       <find>о проекте</find>
       <find>about-title-mobile</find>
       <find>+7</find>
-      <find>more-info-title</find>
       <find>прохождение</find>
+      <find>почитать</find>
+      <find>more-info-title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,12 +257,12 @@
       <workItem from="1566796702511" duration="1438000" />
       <workItem from="1566812450060" duration="764000" />
       <workItem from="1566882357478" duration="517000" />
-      <workItem from="1566894569804" duration="8241000" />
+      <workItem from="1566894569804" duration="8354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17336000" />
+    <option name="totallyTimeSpent" value="17449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="165" column="119" lean-forward="false" selection-start-line="165" selection-start-column="119" selection-end-line="165" selection-end-column="119" />
+        <state relative-caret-position="441">
+          <caret line="257" column="122" lean-forward="false" selection-start-line="257" selection-start-column="122" selection-end-line="257" selection-end-column="122" />
           <folding />
         </state>
       </provider>
