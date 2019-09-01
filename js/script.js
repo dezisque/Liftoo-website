@@ -51,11 +51,9 @@ document.getElementsByTagName("head")[0].appendChild(script);
 var cards = document.getElementsByClassName("reviews-carousel-item-h");
 var cardNames = document.getElementsByClassName("reviews-carousel-item-name");
 var cardReviews = document.getElementsByClassName("reviews-carousel-item-review");
-console.log(cards);
 function callbackFunc(result) {
-  console.log(result.response);
   for (var i = 0; i < result.response.items.length; i++){
-    if ((result.response.items[i].from_id != -179130202) && (result.response.items[i].text.length > 10) && (result.response.items[i].text.length < 300)){
+    if ((result.response.items[i].from_id != -179130202) && (result.response.items[i].text.length > 10) && (result.response.items[i].text.length < 400)){
       comments.user_id.push(result.response.items[i].from_id);
       comments.text.push(result.response.items[i].text);
       var req="https://api.vk.com/method/users.get?user_id="+comments.user_id[i]+"&v=5.52&access_token=576b3ad189f64f8048d3c022f15e09829fa298c198f50cc880a30cab54315b4c90d190096d92713938004&fields=photo_400_orig&callback=callbackFunc"
@@ -79,5 +77,4 @@ function callbackFunc(result) {
       });
     }
   }
-  console.log(comments);
 }

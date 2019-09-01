@@ -271,6 +271,7 @@ header{
 }
 
 .about-layout{
+  overflow: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -283,14 +284,19 @@ header{
 }
 
 .about-layout .top{
-  position: relative;
-  left: -6vw;
+  position: absolute;
+  left: 0;
 }
 
 .about-layout .bottom{
-  position: relative;
+  position: absolute;
   top: 30vw;
-  right: -23vw;
+  right: 0;
+}
+
+.about-layout .bottom p{
+  display: inline;
+  margin-right: -2vw;
 }
 
 .view-mobile{
@@ -463,6 +469,7 @@ header{
 .booking-layout{
   width: 100%;
   position: absolute;
+  overflow: hidden;
   height: 15vw;
   background-color: #000;
   opacity: .7;
@@ -550,7 +557,7 @@ header{
 
 .restrictions-layout{
   position: absolute;
-  width: 100%;
+  width: calc(100% - 6vw);
   height: 100%;
   font-family: BebasBold;
   font-size: 25vw;
@@ -915,7 +922,7 @@ header{
   }
 
   .bookform-widget-embedded__wrapper{
-    height: 97vw!important;
+    height: 150vw!important;
     margin-top: 0.15vw;
     width: 75%!important;
     float: left!important;
@@ -1070,7 +1077,7 @@ header{
 
   .booking-body{
     width: 100%;
-    height: 100vw;
+    height: 153vw;
     margin-top: 8vw;
   }
 
@@ -1360,7 +1367,7 @@ header{
   .booking-header-inner-description{
     text-align: center;
     color: #bf0c29;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     display: block;
     width: 80%;
     margin: 2vw auto;
