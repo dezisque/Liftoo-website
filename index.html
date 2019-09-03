@@ -274,7 +274,7 @@
     </section>
 
     <section class="section restrictions" id="restrictions">
-      <div class="restrictions-layout is-hodden-mobile">
+      <div class="restrictions-layout is-hidden-mobile">
         <span class="top">Огр</span>
         <span class="bottom">аничения</span>
       </div>
@@ -364,6 +364,7 @@
       </div>
     </section>
     <section class="section contact-us" id="contact-us">
+      <div class="map-layout is-hidden-mobile"></div>
       <div class="container content-container">
         <div class="contact-us-vl"></div>
         <span class="contact-us-title">Свяжитесь с нами</span>
@@ -475,27 +476,21 @@
             var scrolled = window.scrollY - 300;
             var items = document.getElementsByClassName('left-indicator-li');
            if (scrolled < getCoords(document.getElementById('header')).top){
-               console.log('header section');
                items[0].classList.add('active');
                removeClass(items,0);
            } else if (scrolled < getCoords(document.getElementById('about')).top){
-               console.log('about section');
                items[1].classList.add('active');
                removeClass(items,1);
            } else if (scrolled < getCoords(document.getElementById('booking')).top){
-               console.log('booking section');
                items[2].classList.add('active');
                removeClass(items,2);
            } else if (scrolled < getCoords(document.getElementById('restrictions')).top){
-               console.log('restrictions section');
                items[3].classList.add('active');
                removeClass(items,3);
            } else if (scrolled < getCoords(document.getElementById('reviews')).top){
-               console.log('reviews section');
                items[4].classList.add('active');
                removeClass(items,4);
            } else if (scrolled < getCoords(document.getElementById('contact-us')).top){
-               console.log('contacts section');
                items[5].classList.add('active');
                removeClass(items,5);
            }
