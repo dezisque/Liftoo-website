@@ -1159,7 +1159,7 @@ header{
   .cta-more-info{
     font-size: 3vw;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: -6vw;
   }
 
   .restrictions{
@@ -1280,8 +1280,9 @@ header{
   }
 
   .reviews-description{
-    font-size: 4.5vw;
+    font-size: 8vw;
     padding-bottom: 4vw;
+      font-family: BebasBook;
   }
 
   .reviews-uptitle{

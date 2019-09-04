@@ -11,5 +11,6 @@ if(isset($_POST['submit'])){
         echo "Message was send";// correct
          }
 }
+
 ?>
   
