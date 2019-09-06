@@ -816,20 +816,20 @@ header{
 }
 
 .map-btn-mobile{
-  height: 7vw;
-  width: 30%;
+  height: 10vw;
+  width: 40%;
   background-color: #000;
   position: absolute;
-  top: 27vw;
-  left: calc(50% - 15%);
+  top: 25vw;
+  left: calc(50% - 20%);
 }
 
 .map-btn-mobile p{
   color: rgba(200, 0, 0, 1);
   font-family: BebasBook;
   font-weight: 600;
-  line-height: 7vw;
-  font-size: 3.5vw;
+  line-height: 10vw;
+  font-size: 4.5vw;
 }
 
 .contact-us .control{
