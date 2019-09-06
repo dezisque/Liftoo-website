@@ -190,7 +190,7 @@ header{
 .slick-prev:before, .slick-next:before{
   font-size: 30px!important;
     position: relative!important;
-    top: -2px!important;
+    top: -1px!important;
 }
 
 .slick-prev{

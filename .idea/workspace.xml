@@ -4,7 +4,6 @@
     <list default="true" id="88527105-e27c-411d-b6f1-a1eed3fae9ec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,8 +66,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="827" column="9" lean-forward="false" selection-start-line="827" selection-start-column="9" selection-end-line="827" selection-end-column="9" />
+            <state relative-caret-position="229">
+              <caret line="192" column="11" lean-forward="false" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -85,7 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vjcrdf</find>
       <find>насле</find>
       <find>квест хо</find>
       <find>.more-info</find>
@@ -115,6 +113,7 @@
       <find>О нас</find>
       <find>reviews-carousel-item-review</find>
       <find>.contact-us</find>
+      <find>map-btn-mobile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -360,12 +359,12 @@
       <workItem from="1567535883058" duration="1616000" />
       <workItem from="1567574029924" duration="1345000" />
       <workItem from="1567767570046" duration="1931000" />
-      <workItem from="1567780004340" duration="5919000" />
+      <workItem from="1567780004340" duration="6031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53247000" />
+    <option name="totallyTimeSpent" value="53359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="827" column="9" lean-forward="false" selection-start-line="827" selection-start-column="9" selection-end-line="827" selection-end-column="9" />
+        <state relative-caret-position="229">
+          <caret line="192" column="11" lean-forward="false" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
           <folding />
         </state>
       </provider>
