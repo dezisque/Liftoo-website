@@ -785,9 +785,51 @@ header{
 
 .contact-us{
     background: url("../sources/map_bg.jpg");
+    background-position: left;
     background-size: cover;
     position: relative;
     z-index: 1;
+}
+
+.map-btn{
+  background-color: rgba(100, 0, 0, .9);
+  float: right;
+  width: 25%;
+  height: 4.5vw;
+  margin-top: -5vw;
+}
+
+.map-btn p{
+  color: #fff;
+  font-size: 1.5vw;
+  line-height: 4.5vw;
+  text-align: center;
+}
+
+.map-mobile{
+  width: 100%;
+  height: 40vw;
+  background: url("../sources/map_bg.jpg");
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.map-btn-mobile{
+  height: 7vw;
+  width: 30%;
+  background-color: #000;
+  position: absolute;
+  top: 27vw;
+  left: calc(50% - 15%);
+}
+
+.map-btn-mobile p{
+  color: rgba(200, 0, 0, 1);
+  font-family: BebasBook;
+  font-weight: 600;
+  line-height: 7vw;
+  font-size: 3.5vw;
 }
 
 .contact-us .control{
