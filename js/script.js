@@ -88,7 +88,7 @@ function callbackFunc(result) {
                   }
               }
               cardNames[ind].innerHTML = comments.name[ind];
-              cardReviews[ind].style.fontSize = 10 / comments.text[ind].length + 1.6 +'vw';
+              cardReviews[ind].style.fontSize = 10 / newText[ind].length + 1.6 +'vw';
             }
             ind++;
           }

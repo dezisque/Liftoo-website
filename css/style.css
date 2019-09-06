@@ -189,6 +189,8 @@ header{
 
 .slick-prev:before, .slick-next:before{
   font-size: 30px!important;
+    position: relative!important;
+    top: -2px!important;
 }
 
 .slick-prev{
@@ -823,7 +825,7 @@ header{
   width: 40%;
   background-color: #000;
   position: absolute;
-  top: 25vw;
+  top: 21vw;
   left: calc(50% - 20%);
   display: flex;
   justify-content: center;
@@ -1361,6 +1363,7 @@ header{
   .contact-us{
     background: none;
     padding: 1vw;
+    margin-top: 5vw!important;
   }
 
   .contact-us .content-container{
