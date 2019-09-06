@@ -822,13 +822,15 @@ header{
   position: absolute;
   top: 25vw;
   left: calc(50% - 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.map-btn-mobile p{
+.map-btn-mobile div{
   color: rgba(200, 0, 0, 1);
   font-family: BebasBook;
   font-weight: 600;
-  line-height: 11vw;
   font-size: 4.5vw;
 }
 
