@@ -1280,6 +1280,7 @@ header{
   .reviews-carousel-item h3 {
     position: relative;
     left: 14vw;
+    top: .8vw;
     text-align: center;
     font-size: 2vw;
     height: 25vw;
