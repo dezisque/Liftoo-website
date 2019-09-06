@@ -279,7 +279,7 @@ header{
 
 .about-layout span{
   font-family: BebasBold;
-  font-size: 23vw;
+  font-size: 20vw;
   opacity: .3;
 }
 
@@ -289,6 +289,7 @@ header{
 }
 
 .about-layout .bottom{
+  white-space: nowrap;
   position: absolute;
   top: 30vw;
   right: 0;
@@ -828,10 +829,10 @@ header{
 }
 
 .map-btn-mobile div{
-  color: rgba(200, 0, 0, 1);
-  font-family: BebasBook;
-  font-weight: 600;
-  font-size: 4.5vw;
+    color: rgba(200, 0, 0, 1);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.5vw;
 }
 
 .contact-us .control{
