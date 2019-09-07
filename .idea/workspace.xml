@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
-              <caret line="1392" column="21" lean-forward="false" selection-start-line="1392" selection-start-column="21" selection-end-line="1392" selection-end-column="21" />
+              <caret line="1392" column="22" lean-forward="false" selection-start-line="1392" selection-start-column="22" selection-end-line="1392" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -293,7 +293,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55157000" />
+    <option name="totallyTimeSpent" value="55519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,7 +747,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
-          <caret line="1392" column="21" lean-forward="false" selection-start-line="1392" selection-start-column="21" selection-end-line="1392" selection-end-column="21" />
+          <caret line="1392" column="22" lean-forward="false" selection-start-line="1392" selection-start-column="22" selection-end-line="1392" selection-end-column="22" />
           <folding />
         </state>
       </provider>
